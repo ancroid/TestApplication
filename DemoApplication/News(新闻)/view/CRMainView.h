@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRMainView : UIView
+@interface CRMainView : UICollectionViewCell
 
+@property(nonatomic, strong) UILabel *titleLabel;
+@property(nonatomic, strong) UILabel *subTitleLabel;
 
 @end

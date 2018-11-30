@@ -20,6 +20,7 @@
 		4FF4D64121AD7D98000B6AB6 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4D64021AD7D98000B6AB6 /* VideoViewController.m */; };
 		4FF4D64721AE3E54000B6AB6 /* CRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4D64621AE3E54000B6AB6 /* CRNavigationViewController.m */; };
 		4FF4D64B21AE43A6000B6AB6 /* UIBarButtonItem+CR.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4D64A21AE43A6000B6AB6 /* UIBarButtonItem+CR.m */; };
+		4FF4D65121AF8FC0000B6AB6 /* CRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4D65021AF8FC0000B6AB6 /* CRTableViewCell.m */; };
 		74F3E0111919734C4800415D /* libPods-DemoApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7236938512C5438FB83E28 /* libPods-DemoApplication.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		4FF4D64621AE3E54000B6AB6 /* CRNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRNavigationViewController.m; sourceTree = "<group>"; };
 		4FF4D64921AE43A6000B6AB6 /* UIBarButtonItem+CR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CR.h"; sourceTree = "<group>"; };
 		4FF4D64A21AE43A6000B6AB6 /* UIBarButtonItem+CR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CR.m"; sourceTree = "<group>"; };
+		4FF4D64F21AF8FC0000B6AB6 /* CRTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTableViewCell.h; sourceTree = "<group>"; };
+		4FF4D65021AF8FC0000B6AB6 /* CRTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTableViewCell.m; sourceTree = "<group>"; };
 		D29D64757BCDC593CD09D6D2 /* Pods-DemoApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication.release.xcconfig"; sourceTree = "<group>"; };
 		E60967DF9359C8374C3A128A /* Pods-DemoApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,8 +118,6 @@
 		4FBAFDD521AD263900DE14FD /* view */ = {
 			isa = PBXGroup;
 			children = (
-				4FBAFDD821AD269100DE14FD /* CRMainView.h */,
-				4FBAFDD921AD2AF900DE14FD /* CRMainView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -195,6 +196,8 @@
 		4FF4D62A21AD7654000B6AB6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4FBAFDD821AD269100DE14FD /* CRMainView.h */,
+				4FBAFDD921AD2AF900DE14FD /* CRMainView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -257,6 +260,8 @@
 		4FF4D63821AD7BFC000B6AB6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4FF4D64F21AF8FC0000B6AB6 /* CRTableViewCell.h */,
+				4FF4D65021AF8FC0000B6AB6 /* CRTableViewCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -396,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF4D65121AF8FC0000B6AB6 /* CRTableViewCell.m in Sources */,
 				4FF4D64121AD7D98000B6AB6 /* VideoViewController.m in Sources */,
 				4FF4D64721AE3E54000B6AB6 /* CRNavigationViewController.m in Sources */,
 				4FB1378F21ACE51E008E7948 /* ViewController.m in Sources */,

@@ -15,6 +15,7 @@
 @implementation VideoViewController
 
 - (void) viewDidLoad{
+    [super viewDidLoad];
     _tagButton=[[UIButton alloc]initWithFrame:CGRectMake(200, 200, 120, 120)];
     [_tagButton setBackgroundColor:UIColor.blackColor];
     [_tagButton setTitle:@"视频页" forState:UIControlStateNormal];

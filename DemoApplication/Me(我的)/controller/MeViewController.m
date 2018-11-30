@@ -16,7 +16,10 @@
 @implementation MeViewController
 
 - (void) viewDidLoad{
+    [super viewDidLoad];
     _tagButton=[[UIButton alloc]initWithFrame:CGRectMake(200, 200, 120, 120)];
+    _tagButton.layer.cornerRadius=5;
+    _tagButton.layer.masksToBounds=YES;
     [_tagButton setBackgroundColor:UIColor.blackColor];
     [_tagButton setTitle:@"我的页" forState:UIControlStateNormal];
     [self.view addSubview:_tagButton];
