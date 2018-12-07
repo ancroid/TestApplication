@@ -21,7 +21,7 @@
 -(void) pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     if (self.viewControllers.count>0) {
         viewController.hidesBottomBarWhenPushed=YES;
-        viewController.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImageName:@"navigation_icon_back" hightImageName:nil target:self action:@selector(c_back)];
+        viewController.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithImageName:@"nav_icon_back" hightImageName:nil target:self action:@selector(c_back)];
         //全局右滑pop
         self.interactivePopGestureRecognizer.delegate=nil;
     }

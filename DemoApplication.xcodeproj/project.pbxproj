@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6EE48521B67CEB006FFA09 /* CRCollectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6EE48421B67CEB006FFA09 /* CRCollectionDelegate.m */; };
+		4F931E4621B7B176003BB3DD /* HTDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F931E4521B7B176003BB3DD /* HTDataModel.m */; };
+		4F931E4921B7BC79003BB3DD /* HTListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F931E4821B7BC79003BB3DD /* HTListCellView.m */; };
+		4F931E4F21B91CED003BB3DD /* CRCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F931E4E21B91CED003BB3DD /* CRCollectionViewLayout.m */; };
 		4FB1378C21ACE51E008E7948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1378B21ACE51E008E7948 /* AppDelegate.m */; };
-		4FB1378F21ACE51E008E7948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1378E21ACE51E008E7948 /* ViewController.m */; };
 		4FB1379421ACE520008E7948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1379321ACE520008E7948 /* Assets.xcassets */; };
 		4FB1379A21ACE520008E7948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB1379921ACE520008E7948 /* main.m */; };
 		4FBAFDD421AD158000DE14FD /* CRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAFDD321AD158000DE14FD /* CRMainViewController.m */; };
@@ -26,11 +29,17 @@
 
 /* Begin PBXFileReference section */
 		0F7236938512C5438FB83E28 /* libPods-DemoApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6EE48321B67CEB006FFA09 /* CRCollectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRCollectionDelegate.h; sourceTree = "<group>"; };
+		4F6EE48421B67CEB006FFA09 /* CRCollectionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRCollectionDelegate.m; sourceTree = "<group>"; };
+		4F931E4421B7B176003BB3DD /* HTDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTDataModel.h; sourceTree = "<group>"; };
+		4F931E4521B7B176003BB3DD /* HTDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTDataModel.m; sourceTree = "<group>"; };
+		4F931E4721B7BC79003BB3DD /* HTListCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTListCellView.h; sourceTree = "<group>"; };
+		4F931E4821B7BC79003BB3DD /* HTListCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTListCellView.m; sourceTree = "<group>"; };
+		4F931E4D21B91CED003BB3DD /* CRCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRCollectionViewLayout.h; sourceTree = "<group>"; };
+		4F931E4E21B91CED003BB3DD /* CRCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRCollectionViewLayout.m; sourceTree = "<group>"; };
 		4FB1378721ACE51E008E7948 /* DemoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB1378A21ACE51E008E7948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FB1378B21ACE51E008E7948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FB1378D21ACE51E008E7948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FB1378E21ACE51E008E7948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4FB1379321ACE520008E7948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB1379821ACE520008E7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB1379921ACE520008E7948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,9 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB1378A21ACE51E008E7948 /* AppDelegate.h */,
-				4FB1378D21ACE51E008E7948 /* ViewController.h */,
 				4FB1378B21ACE51E008E7948 /* AppDelegate.m */,
-				4FB1378E21ACE51E008E7948 /* ViewController.m */,
 				4FB1379821ACE520008E7948 /* Info.plist */,
 				4FB1379321ACE520008E7948 /* Assets.xcassets */,
 				4FF4D64821AE40D3000B6AB6 /* categroy */,
@@ -196,6 +203,8 @@
 		4FF4D62A21AD7654000B6AB6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4F6EE48421B67CEB006FFA09 /* CRCollectionDelegate.m */,
+				4F6EE48321B67CEB006FFA09 /* CRCollectionDelegate.h */,
 				4FBAFDD821AD269100DE14FD /* CRMainView.h */,
 				4FBAFDD921AD2AF900DE14FD /* CRMainView.m */,
 			);
@@ -269,6 +278,8 @@
 		4FF4D63C21AD7CED000B6AB6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				4F931E4421B7B176003BB3DD /* HTDataModel.h */,
+				4F931E4521B7B176003BB3DD /* HTDataModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -276,6 +287,10 @@
 		4FF4D63D21AD7CF3000B6AB6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				4F931E4721B7BC79003BB3DD /* HTListCellView.h */,
+				4F931E4821B7BC79003BB3DD /* HTListCellView.m */,
+				4F931E4D21B91CED003BB3DD /* CRCollectionViewLayout.h */,
+				4F931E4E21B91CED003BB3DD /* CRCollectionViewLayout.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -318,6 +333,7 @@
 				4FB1378321ACE51E008E7948 /* Sources */,
 				4FB1378421ACE51E008E7948 /* Frameworks */,
 				4FB1378521ACE51E008E7948 /* Resources */,
+				5DE0FF5470A32BAF61E6747B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,6 +388,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5DE0FF5470A32BAF61E6747B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoApplication/Pods-DemoApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		89AE614E6B34961350891B44 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,14 +442,17 @@
 				4FF4D65121AF8FC0000B6AB6 /* CRTableViewCell.m in Sources */,
 				4FF4D64121AD7D98000B6AB6 /* VideoViewController.m in Sources */,
 				4FF4D64721AE3E54000B6AB6 /* CRNavigationViewController.m in Sources */,
-				4FB1378F21ACE51E008E7948 /* ViewController.m in Sources */,
+				4F6EE48521B67CEB006FFA09 /* CRCollectionDelegate.m in Sources */,
 				4FF4D62321AD7437000B6AB6 /* BaseViewController.m in Sources */,
 				4FF4D63B21AD7C38000B6AB6 /* SquareViewController.m in Sources */,
 				4FBAFDDA21AD2AF900DE14FD /* CRMainView.m in Sources */,
+				4F931E4621B7B176003BB3DD /* HTDataModel.m in Sources */,
 				4FBAFDD421AD158000DE14FD /* CRMainViewController.m in Sources */,
 				4FB1379A21ACE520008E7948 /* main.m in Sources */,
 				4FB1378C21ACE51E008E7948 /* AppDelegate.m in Sources */,
 				4FF4D64B21AE43A6000B6AB6 /* UIBarButtonItem+CR.m in Sources */,
+				4F931E4921B7BC79003BB3DD /* HTListCellView.m in Sources */,
+				4F931E4F21B91CED003BB3DD /* CRCollectionViewLayout.m in Sources */,
 				4FF4D63521AD7B3D000B6AB6 /* MeViewController.m in Sources */,
 				4FF4D62F21AD76BD000B6AB6 /* NewsViewController.m in Sources */,
 			);

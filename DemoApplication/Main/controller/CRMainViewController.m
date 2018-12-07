@@ -41,19 +41,19 @@
 }
 - (void)initAllChildVCs{
     NewsViewController *newsVC=[[NewsViewController alloc]init];
-    [self addMyChildViewController:newsVC title:@"新闻" imageName:@"tab_icon_news"];
+    [self addMyChildViewController:newsVC title:@"新闻" imageName:@"tab_icon_home"];
     self.newsVC=newsVC;
     
     VideoViewController *videoVC=[[VideoViewController alloc]init];
-    [self addMyChildViewController:videoVC title:@"视频" imageName:@"tab_icon_video"];
+    [self addMyChildViewController:videoVC title:@"视频" imageName:@"tab_icon_home"];
     self.videoVC=videoVC;
     
     SquareViewController *squareVC=[[SquareViewController alloc]init];
-    [self addMyChildViewController:squareVC title:@"广场" imageName:@"tab_icon_square"];
+    [self addMyChildViewController:squareVC title:@"广场" imageName:@"tab_icon_home"];
     self.squareVC=squareVC;
     
     MeViewController *meVC=[[MeViewController alloc]init];
-    [self addMyChildViewController:meVC title:@"我的" imageName:@"tab_icon_me"];
+    [self addMyChildViewController:meVC title:@"我的" imageName:@"tab_icon_home"];
     self.meVC=meVC;
 }
 - (void)addMyChildViewController:(UIViewController *)child title:(NSString *)title imageName:(NSString *)imageName{

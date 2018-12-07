@@ -8,6 +8,13 @@
 
 #import "BaseViewController.h"
 
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define IS_IPHONEX (SCREEN_HEIGHT == 812 || SCREEN_HEIGHT == 896)
+#define NAVIGATIONBAR_HEIGHT (IS_IPHONEX ? 88 : 64)
+#define NAVIGATIONBAR_BOTTOM_HEIGHT (IS_IPHONEX ? 49 : 0)
+#define HOME_INDICATIOR_HEIGHT 34
+
+
 @interface BaseViewController ()
 
 @end
@@ -16,8 +23,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor=UIColor.lightGrayColor;
+        self.automaticallyAdjustsScrollViewInsets = NO;
+        self.view.backgroundColor=UIColor.lightGrayColor;
+        [self.view setFrame:CGRectMake(0, NAVIGATIONBAR_HEIGHT, self.view.frame.size.width, self.view.frame.size.height-NAVIGATIONBAR_HEIGHT-NAVIGATIONBAR_BOTTOM_HEIGHT-HOME_INDICATIOR_HEIGHT)];
 }
 
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+}
 
 @end

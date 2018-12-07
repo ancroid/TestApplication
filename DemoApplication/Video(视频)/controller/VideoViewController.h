@@ -7,8 +7,13 @@
 //
 
 #import "BaseViewController.h"
+#import "HTDataModel.h"
+#import "HTListCellView.h"
+
 @interface VideoViewController :BaseViewController
 
+@property(nonatomic) UICollectionView *collectionView;
+@property(nonatomic) HTDataModel *model;
 
 @end
 
